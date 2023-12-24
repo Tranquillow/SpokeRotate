@@ -18,9 +18,11 @@ Requires CMake >3.11 and [raylib 5.0](https://github.com/raysan5/raylib/) to be 
 
 ## Installation
 
+***Please try the program with X11, I have not tried it with Wayland, at all.***
 ``` bash
 cmake -B build && cmake --build build
 ```
+Once it hopefully compiles without error, the binary should be `./build/SpokeRotate`
 
 ## Screenshots
 
